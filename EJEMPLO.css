@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+.linea1
+{
+    background-color: red;
+    width: 1366px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    transition: all  1.5s ease-in;
+}
+.linea1:hover
+{
+    translate: (150) rotate (25deg) scale (2.0); 
+    background-color: brown;
+}
+.linea2{
+    background-color: blue;
+width: 1366px;
+height: 40px;
+background-image: url(mundo.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.linea3
+{
+    width: 1366px;
+    height: 40px;
+    background-color: chartreuse;
+}
+.linea4
+{
+    width: 1366px;
+    height: 40px;
+    background-color: dimgrey;
+}
+.imagen{
+    width: 1366px;
+    height: 350px;
+    position: relative;
+top: 8px;
+}
+@media (max-width:768px)
+{
+    .general
+{
+    background-color: blue;
+}
+}
+@media (max-width:480px)
+{
+.general
+{
+    background-color: brown;
+    flex-direction: column;
+}
+}
